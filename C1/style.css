@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.dark{
+    background-color: black;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.btn{
+    font-family: "Lucida Console";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    height: 35px;
+    width: 100px;
+    color: green;
+}
+.btn:hover{
+    color: brown;
+}
+
+.chart_block{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.s1{
+    color: blanchedalmond;
+}
+
+.chartHidden{
+    display: none !important;
+}
